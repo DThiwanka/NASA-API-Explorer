@@ -13,9 +13,9 @@ const apis = [
   },
   {
     icon: <FaSquarespace className="h-8 w-8 text-red-500" />,
-    title: 'Mars Rover Photos',
-    description: "Access the latest images captured by NASA's Mars rovers.",
-    link: '/mars-rover-photos',
+    title: 'Neo Feed',
+    description: "list of Asteroids based on their closest approach date to Earth",
+    link: '/neofeed',
   },
   {
     icon: <IoTelescope className="h-8 w-8 text-green-500" />,
@@ -61,7 +61,7 @@ const FeaturedAPIsSection = () => {
                 <p className="mt-2 text-gray-600">{api.description}</p>
                 <div className="mt-auto">
                   <Link to={api.link}>
-                    <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700 transition">
+                    <button className="w-full mt-10 px-4 py-2 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700 transition">
                       Explore
                     </button>
                   </Link>
