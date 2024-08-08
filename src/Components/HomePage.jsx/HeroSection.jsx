@@ -3,7 +3,7 @@ import Icon from './nasa-6.svg'
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-primary py-8 md:py-16 lg:py-24 bg-gray-50">
+    <section className="w-full bg-primary py-8 md:py-16 lg:py-24 text-white ">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-20 items-center">
           <div className="space-y-6 md:space-y-10 lg:space-y-12 text-center md:text-left">
@@ -15,7 +15,7 @@ const HeroSection = () => {
             </p>
             <a
               href="/explore"
-              className="inline-flex h-12 items-center justify-center rounded-lg bg-primary-foreground px-8 text-base font-semibold text-primary shadow-lg transition-transform transform hover:scale-105 hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary-foreground mb-6 md:mb-10"
+              className="inline-flex h-12 items-center justify-center rounded-lg bg-white text-black px-8 text-base font-semibold text-primary shadow-lg transition-transform transform hover:scale-105 hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary-foreground mb-6 md:mb-10"
             >
               Explore APIs
             </a>

@@ -8,10 +8,10 @@ import Footer from './Footer'
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800">
       <Header />
       <main className="flex-1">
-        <HeroSection />
+        <HeroSection/>
         <FeaturedAPIsSection />
         <BlogSection />
       </main>

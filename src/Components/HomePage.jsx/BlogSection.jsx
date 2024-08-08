@@ -23,10 +23,10 @@ const blogPosts = [
 
 const BlogSection = () => {
   return (
-    <section className="w-full bg-gray-50 py-12 md:py-24 lg:py-32">
+    <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl text-gray-900">
+          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl text-white">
             Latest from the NASA API Blog
           </h2>
           <p className="mt-2 max-w-2xl mx-auto text-gray-600 md:text-lg lg:text-xl">
