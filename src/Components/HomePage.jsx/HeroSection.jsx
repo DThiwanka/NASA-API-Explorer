@@ -14,7 +14,7 @@ const HeroSection = () => {
               Explore a vast collection of NASA's open-source APIs and integrate them into your applications. Discover the latest space data, imagery, and more.
             </p>
             <a
-              href="/explore"
+              href="https://api.nasa.gov/"
               className="inline-flex h-12 items-center justify-center rounded-lg bg-white text-black px-8 text-base font-semibold text-primary shadow-lg transition-transform transform hover:scale-105 hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary-foreground mb-6 md:mb-10"
             >
               Explore APIs
