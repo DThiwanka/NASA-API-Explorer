@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { ClipLoader } from "react-spinners";
+import Breadcrumb from "../Breadcrumb/Breadcrumb";
 
 const LaunchLibrary = () => {
     const [launches, setLaunches] = useState([]);
@@ -67,6 +68,7 @@ const LaunchLibrary = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white p-6">
+            <Breadcrumb items={[{ label: 'Launch Library' }]} />
             <header className="text-center mb-8">
                 <h1 className="text-5xl font-bold mb-4">Launch Library</h1>
                 <p className="text-lg text-gray-400">Explore past and future space launches</p>

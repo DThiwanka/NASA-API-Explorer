@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { ClipLoader } from "react-spinners";
+import Breadcrumb from "../Breadcrumb/Breadcrumb";
 
 const NeoFeed = () => {
   const [startDate, setStartDate] = useState("");
@@ -33,6 +34,7 @@ const NeoFeed = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white p-6">
+      <Breadcrumb items={[{ label: 'NEO Feed' }]} />
       <header className="text-center mb-8">
         <h1 className="text-5xl font-bold mb-4">NASA NEO Feed</h1>
         <p className="text-lg text-gray-400">Explore Near-Earth Objects</p>

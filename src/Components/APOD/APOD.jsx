@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { ClipLoader } from "react-spinners";
+import Breadcrumb from "../Breadcrumb/Breadcrumb";
 
 const APOD = () => {
   const [date, setDate] = useState("");
@@ -35,6 +36,7 @@ const APOD = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white p-6">
+      <Breadcrumb items={[{ label: 'APOD' }]} />
       <header className="text-center mb-8">
         <h1 className="text-5xl font-bold mb-4">NASA Astronomy Picture of the Day</h1>
         <p className="text-lg text-gray-400">Discover the cosmos one day at a time</p>
