@@ -3,10 +3,12 @@ import HomePage from './Components/HomePage.jsx/HomePage';
 import APOD from './Components/APOD/APOD';
 import NeoFeed from './Components/NeoFeed/NeoFeed';
 import LaunchLibrary from './Components/LaunchLibrary/LaunchLibrary';
+import NoticeBanner from './Components/NoticeBanner/NoticeBanner';
 
 function App() {
   return (
     <Router>
+      <NoticeBanner />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/apod" element={<APOD />} />
