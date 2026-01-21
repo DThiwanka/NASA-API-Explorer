@@ -66,8 +66,9 @@ const Footer = () => {
 
                 </div>
                 <p className="mt-8 text-base leading-6 text-center text-gray-400">
-                    © 2024 ByteSynergyLabs, Inc. All rights reserved.
+                    &copy; {new Date().getFullYear()} NASA API Explorer. All rights reserved.
                 </p>
+
             </div>
         </section>
 

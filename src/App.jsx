@@ -4,11 +4,13 @@ import APOD from './Components/APOD/APOD';
 import NeoFeed from './Components/NeoFeed/NeoFeed';
 import LaunchLibrary from './Components/LaunchLibrary/LaunchLibrary';
 import NoticeBanner from './Components/NoticeBanner/NoticeBanner';
+import StarBackground from './Components/HomePage.jsx/StarBackground';
 
 function App() {
   return (
     <Router>
       <NoticeBanner />
+      <StarBackground />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/apod" element={<APOD />} />

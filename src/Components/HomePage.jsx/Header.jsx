@@ -9,7 +9,6 @@ const Header = () => {
     <header className="w-full text-white py-6 px-4 md:px-6">
       <div className="container mx-auto flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
-          <FaRocket className="h-8 w-8 text-primary" />
           <span className="text-2xl font-bold text-white">NASA API Explorer</span>
         </a>
         {/* <nav className="hidden md:flex space-x-6">
@@ -38,9 +37,8 @@ const Header = () => {
         </button>
       </div>
       <div
-        className={`fixed inset-0 z-40 bg-gray-900 bg-opacity-80 transition-transform transform ${
-          menuOpen ? 'translate-x-0' : 'translate-x-full'
-        } md:hidden`}
+        className={`fixed inset-0 z-40 bg-gray-900 bg-opacity-80 transition-transform transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'
+          } md:hidden`}
         role="dialog"
         aria-labelledby="mobile-menu-title"
         aria-hidden={!menuOpen}
